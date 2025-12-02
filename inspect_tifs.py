@@ -30,8 +30,8 @@ def get_band_label(band_index, total_bands):
     if offset_from_end == 1: return "Env: Wind Dir Sin"
     if offset_from_end == 0: return "Env: Wind Dir Cos"
     
-    # If it's not the first or the last 7, it's a spectral band
-    return f"Spectral Band {band_index}"
+    # If it's not the last 7, it represents a day of the fire
+    return f"Day {band_index}"
 
 def inspect_file(file_path):
     filename = os.path.basename(file_path)
