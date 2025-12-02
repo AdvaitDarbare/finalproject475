@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 # Path to the directory containing the GeoTIFF files
-DATA_DIR = "/Users/advaitdarbare/Downloads/Raster_Burn_Data"
+DATA_DIR = "/Users/advaitdarbare/test_475/Raster_Burn_Data"
 
 # List of the files you have access to
 file_list = [f for f in os.listdir(DATA_DIR) if f.endswith('.tif')]
